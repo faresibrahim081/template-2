@@ -1,0 +1,70 @@
+@media (max-width: 767px) {
+    .services h2{
+        font-size: 60px;
+    }
+    .special-heading + p{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .portofolio h2{
+        font-size: 60px;
+    }
+    .about h2{
+        font-size: 60px;
+    }
+    .contact h2{
+        font-size: 60px;
+    }
+    .contact .special-heading + p{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .contact .info .label,
+    .contact .info .link{
+        font-size: 25px;
+    }
+}
+@media (max-width:992px) {
+    .services .image{
+        display: none;
+    }
+    .about .about-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about .about-content .image::before,
+    .about .about-content .image::after{
+        display: none;
+    }
+    .about .about-content .image{
+        margin: auto;
+    }
+}
+
+        
+
+
+/* start grid system */
+
+@media (min-width:576px) { /*small devices => land scape phones*/
+    .container{
+        width: 540px;
+    }
+}
+
+@media (min-width:768px) { /*Medium devices => Taplets*/
+    .container{
+        width: 720px;
+    }
+}
+@media (min-width:992px) { /*Desktop*/
+    .container{
+        width: 960px;
+    }
+}
+@media (min-width:1200px) { /*Large screen*/
+    .container{
+        width: 1140px;
+    }
+}
+/* End grid system */ 
